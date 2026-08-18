@@ -74,11 +74,11 @@ function Home() {
                 <h2 className='text-center text-5xl my-14 font-bold'>Checkout My Live <span className='text-orange-400'>Projects</span> Here</h2>
                 <div className='flex justify-around my-5 flex-col sm:flex-row'>
 
-                    <img src={P1} className='w-64 border rounded-md cursor-pointer' alt="" />
+                    <img src={P1} className='w-64 border rounded-md cursor-pointer' alt="something" />
 
-                    <img src={P2} className='w-64 border rounded-md cursor-pointer' alt="" />
+                    <img src={P2} className='w-64 border rounded-md cursor-pointer' alt="something" />
 
-                    <img src={P3} className='w-64 border rounded-md cursor-pointer' alt="" />
+                    <img src={P3} className='w-64 border rounded-md cursor-pointer' alt="something" />
 
                 </div>
             </div>
