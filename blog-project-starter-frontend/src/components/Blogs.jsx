@@ -20,7 +20,7 @@ function Blogs() {
             setError("");
 
             const response = await axios.get(
-                "http://localhost:5000/api/blogs"
+                "https://blog-project-backend-e38i.onrender.com/api/blogs"
             );
 
             setBlogs(response.data);
@@ -41,7 +41,7 @@ function Blogs() {
     const handleLike = async (blogId) => {
         try {
             await axios.patch(
-                `http://localhost:5000/api/blogs/like/${blogId}`
+                `https://blog-project-backend-e38i.onrender.com/api/blogs/like/${blogId}`
             );
 
             fetchBlogs();
@@ -75,7 +75,7 @@ function Blogs() {
             };
 
             await axios.post(
-                "http://localhost:5000/api/blogs",
+                "https://blog-project-backend-e38i.onrender.com/api/blogs",
                 blogData
             );
 
@@ -106,7 +106,7 @@ function Blogs() {
 
         try {
             await axios.delete(
-                `http://localhost:5000/api/blogs/${blogId}`
+                `https://blog-project-backend-e38i.onrender.com/api/blogs/${blogId}`
             );
 
             setBlogs((previousBlogs) =>
