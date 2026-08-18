@@ -35,12 +35,12 @@ function Home() {
 
 
             <div className='flex justify-evenly py-6'>
-                <img src={HTML} style={{ width: "50px" }} />
-                <img src={CSS} style={{ width: "50px" }} />
-                <img src={JS} style={{ width: "50px" }} />
-                <img src={REACTICON} style={{ width: "50px" }} />
-                <img src={DB} style={{ width: "50px" }} />
-                <img src={NODE} style={{ width: "50px" }} />
+                <img src={HTML} style={{ width: "50px" }} alt="HTML logo" />
+                <img src={CSS} style={{ width: "50px" }} alt="CSS logo" />
+                <img src={JS} style={{ width: "50px" }} alt="JavaScript logo" />
+                <img src={REACTICON} style={{ width: "50px" }} alt="React logo" />
+                <img src={DB} style={{ width: "50px" }} alt="Database logo" />
+                <img src={NODE} style={{ width: "50px" }} alt="Node.js logo" />
             </div>
 
             <div className='flex flex-col mt-10 items-center justify-around sm:flex-row'>
@@ -73,11 +73,11 @@ function Home() {
                 <h2 className='text-center text-5xl my-14 font-bold'>Checkout My Live <span className='text-orange-400'>Projects</span> Here</h2>
                 <div className='flex justify-around my-5 flex-col sm:flex-row'>
 
-                    <img src={P1} className='w-64 border rounded-md cursor-pointer' alt="something" />
+                    <img src={P1} className='w-64 border rounded-md cursor-pointer' alt="Project one preview" />
 
-                    <img src={P2} className='w-64 border rounded-md cursor-pointer' alt="something" />
+                    <img src={P2} className='w-64 border rounded-md cursor-pointer' alt="Project two preview" />
 
-                    <img src={P3} className='w-64 border rounded-md cursor-pointer' alt="something" />
+                    <img src={P3} className='w-64 border rounded-md cursor-pointer' alt="Project three preview" />
 
                 </div>
             </div>
